@@ -9,13 +9,14 @@ data/data.jsonを書き換えると、対応するJSONを返す
 
 ## ファイル構成
 
-.
-├── .env  待ち受けポートの定義
+```
+├── .env            待ち受けポートの定義
 ├── Dockerfile
 ├── README.md
 ├── data
-│   └── data.json
+│   └── data.json   Mockで返すJSONを定義する
 └── docker-compose.yml
+```
 
 
 ## 使い方
